@@ -1,0 +1,150 @@
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  background: linear-gradient(to bottom right, #e0eafc, #cfdef3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: #333;
+}
+
+.user-card {
+  background: #ffffff;
+  border: none;
+  border-radius: 15px;
+  padding: 25px;
+  width: 620px;
+  text-align: left;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.user-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+}
+
+.search-section {
+  margin-bottom: 20px;
+}
+
+.results-section {
+  min-height: 150px; /* Fix magasság az eredmények vagy hibaüzenet helyének */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #666;
+  font-size: 1rem;
+}
+
+button {
+  background: linear-gradient(to right, #007bff, #0056b3);
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  margin: 10px 5px 0;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+  transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+button:hover {
+  background: linear-gradient(to right, #0056b3, #003f7f);
+  box-shadow: 0 6px 15px rgba(0, 123, 255, 0.5);
+}
+
+input {
+  margin-top: 10px;
+  padding: 10px;
+  width: 90%;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  outline: none;
+  font-size: 1rem;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+input:focus {
+  border-color: #007bff;
+  box-shadow: inset 0 2px 6px rgba(0, 123, 255, 0.3);
+}
+
+.profile-picture {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 15px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profile-picture:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+
+}
+
+.user-info {
+  display: flex;
+  
+  align-items: center;
+  column-gap: 80px;
+  text-align: left;
+}
+
+
+@media (max-width: 768px) {
+  .user-card {
+    padding: 15px;
+    width: 320px;
+  }
+
+  .user-info{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+
+  .results-section {
+    font-size: 0.9rem;
+  }
+
+  .profile-picture {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  .user-card {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  button {
+    padding: 8px 16px;
+    font-size: 0.8rem;
+  }
+
+  input {
+    font-size: 0.9rem;
+ 
+  }
+
+  .results-section {
+    font-size: 0.8rem;
+  }
+
+  .profile-picture {
+    width: 80px;
+    height: 80px;
+  }
+}

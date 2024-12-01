@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice",
+      "email": "alice@example.com",
+      "age": 25,
+      "profilePicture": "https://via.placeholder.com/150?text=Alice"
+    },
+    {
+      "id": 2,
+      "name": "Bob",
+      "email": "bob@example.com",
+      "age": 30,
+      "profilePicture": "https://via.placeholder.com/150?text=Bob"
+    },
+    {
+      "id": 3,
+      "name": "Charlie",
+      "email": "charlie@example.com",
+      "age": 35,
+      "profilePicture": "https://via.placeholder.com/150?text=Charlie"
+    },
+    {
+      "id": 4,
+      "name": "Diana",
+      "email": "diana@example.com",
+      "age": 28,
+      "profilePicture": "https://via.placeholder.com/150?text=Diana"
+    },
+    {
+      "id": 5,
+      "name": "Eve",
+      "email": "eve@example.com",
+      "age": 22,
+      "profilePicture": "https://via.placeholder.com/150?text=Eve"
+    }
+  ]
+}
