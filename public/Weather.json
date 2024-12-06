@@ -1,0 +1,33 @@
+{
+    "weather": [
+      {
+        "id": 1,
+        "cityName": "Budapest",
+        "temperature": 20,
+        "weather": "Sunny",
+        "icon": "https://via.placeholder.com/100?text=Sunny"
+      },
+      {
+        "id": 2,
+        "cityName": "London",
+        "temperature": 15,
+        "weather": "Rainy",
+        "icon": "https://via.placeholder.com/100?text=Rainy"
+      },
+      {
+        "id": 3,
+        "cityName": "New York",
+        "temperature": 22,
+        "weather": "Cloudy",
+        "icon": "https://via.placeholder.com/100?text=Cloudy"
+      },
+      {
+        "id": 4,
+        "cityName": "Tokyo",
+        "temperature": 25,
+        "weather": "Sunny",
+        "icon": "https://via.placeholder.com/100?text=Sunny"
+      }
+    ]
+  }
+  

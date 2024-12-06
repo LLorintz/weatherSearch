@@ -1,14 +1,14 @@
-
-import UserCard from "./usercard/Usercard";
-import "./app.css";
+import WeatherApp from "./components/WeatherApp"
+import './app.css'
 
 function App() {
+
+
   return (
-    <div>
-      <h1>User Information</h1>
-      <UserCard />
-    </div>
-  );
+    <>
+      <WeatherApp></WeatherApp>
+    </>
+  )
 }
 
-export default App;
+export default App
